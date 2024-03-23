@@ -1,5 +1,5 @@
-
-/* define custom font-family properties */
+/* targeting the root element to define custom font-family
+ and colorsproperties */
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
@@ -10,20 +10,17 @@
 	--font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-/* set body's font-family to font-family-base */
 body {
-    font-family: var(--font-family-base);
+	font-family: var(--font-family-base);
+	color: #161616;
 }
 a {
-    color: #161616;
+	color: #161616;
 }
-
-/* target all heading tags and set font-family to font-family-title */
 h1,
 h2,
 h3,
@@ -36,11 +33,9 @@ h6 {
 .visually-hidden {
 	display: none;
 }
-
 .card-category {
 	color: var(--color-primary);
 }
-
 .section-tagline {
 	color: var(--color-primary);
 }
