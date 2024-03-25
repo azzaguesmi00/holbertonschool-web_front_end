@@ -173,14 +173,16 @@ template {
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
-    --section-padding: 5rem 0;
-    --section-header-padding: 0 0 3rem;
-    --section-body-padding: 0 0 3rem;
-    --section-footer-padding: 3rem 0 0;
-    --section-footer-align: center;
-    --footer-padding: 5rem 0 1rem;
+	--section-padding: 5rem 0;
+	--section-header-padding: 0 0 3rem;
+	--section-body-padding: 0 0 3rem;
+	--section-footer-padding: 3rem 0 0;
+	--section-footer-align: center;
+	--footer-padding: 5rem 0 1rem;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
 	box-sizing: border-box;
 }
 html {
@@ -199,7 +201,6 @@ a:link {
 	color: #161616;
 	text-decoration-line: none;
 }
-
 a:visited {
 	font-style: italic;
 }
@@ -232,10 +233,10 @@ h6 {
 	font-weight: var(--font-weight-bold);
 }
 .container {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-  }  
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .section-title {
 	font-family: var(--font-family-title);
 	font-size: var(--font-size-xx-large);
@@ -247,6 +248,7 @@ h6 {
 	padding: var(--section-padding);
 }
 .section-header {
+	padding: var(--section-header-padding);
 	text-align: var(--section-header-align);
 }
 .section-body {
@@ -255,7 +257,6 @@ h6 {
 .section-footer {
 	padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
-
 }
 .footer{
     padding: var(--footer-padding);
