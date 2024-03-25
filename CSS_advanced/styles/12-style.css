@@ -67,7 +67,4 @@ h6 {
 }
 .section-tagline {
 	color: var(--color-primary);
-    font-family: var(--font-family-title); /* set the family of fonts to font-family-title */
-    text-transform: var(--section-tagline-transform); /* transform the text using section-tagline-transform */
-    font-weight: var(--font-weight-bold); /* set the weight of fonts to font-weight-bold */
 }
