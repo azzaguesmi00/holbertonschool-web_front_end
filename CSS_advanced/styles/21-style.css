@@ -193,7 +193,6 @@ template {
 *:after {
 	box-sizing: border-box;
 }
-
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -206,11 +205,11 @@ body {
 	font-weight: var(--font-weight-regular);
 	line-height: var(--line-height-base);
 }
-
 a:link {
 	color: #161616;
 	text-decoration-line: none;
 }
+
 a:visited {
 	font-style: italic;
 }
@@ -220,7 +219,6 @@ a:hover {
 a:active {
 	background-color: var(--color-light-grey);
 }
-
 h1,
 h2,
 h3,
@@ -234,11 +232,9 @@ h6 {
 .visually-hidden {
 	display: none;
 }
-
 .card-category {
 	color: var(--color-primary);
 }
-
 .section-tagline {
 	color: var(--color-primary);
 	font-family: var(--font-family-title);
@@ -323,8 +319,7 @@ ul.row {
     display: table;
     clear: both;
 }
-
 [class^="col-"] {
-    float: left;
-    padding: calc(0.5 * var(--root-element)) !important;
+	float: left;
+    padding: 0.5rem;
 }
